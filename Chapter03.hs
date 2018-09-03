@@ -1,3 +1,5 @@
+module Chapter03 where
+
 removeNonUppercase :: [Char] -> [Char]
 removeNonUppercase s = [ c | c <- s, c `elem` ['A'..'Z']]
 
@@ -7,4 +9,3 @@ addThree x y z = x + y + z
 factorial n = product [1..n]
 
 circumference r = 2 * pi * r
- 
